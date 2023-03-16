@@ -1,0 +1,79 @@
+<head>
+<link rel="stylesheet" type="text/css" href="C:\Users\HP\OneDrive\Documents\styles.css">
+<style>
+*{
+	box-sizing: border-box; 
+	margin: 0.0;
+	padding: 0;
+	text-align: justify;
+	display: inline-block;
+}
+body{
+	background-color: beige;
+}
+h1{
+	text-align: center
+}
+div{
+	margin: 20px;
+	width: 320px;
+	height: 120px;
+	background-color: gray;
+	padding: 10px;
+	border: 3px  solid black;
+	text-align: center;
+	display: inline-block;
+}
+div #1{
+	position: relative;
+	right: 50px;
+}
+div #2{
+	float: right;
+}
+p{
+	position: relative;
+	bottom: 27px;
+	left: 260px;
+
+}
+p#t{
+	background-color: yellow;
+	width: 50px;
+	height: 10px;
+	padding: 10px;
+	border: solid black 1px;
+}
+ p#y{
+ 	background-color: pink;
+ 	width: 50px;
+ 	height: 10px;
+ 	padding: 10px;
+ 	border: solid black 1px;
+ }
+ p#b{
+ 	background-color: orange;
+ 	width: 50px;
+ 	height: 10px;
+ 	padding: 10px;
+ 	border: solid black 1px;
+ }
+ /******desktop devices****/
+ @media(min-width: 992px)
+ 
+ div{
+ 	width: 80%;
+ }
+ 
+/****tablet devices****/
+@media(min-width: 768px) and (max-width: 991px)
+div{
+	width: 50;
+}
+/****mobile devices****/
+@media(max-width: 767px)
+div{
+	width: 30;
+}
+</style>
+</head>
